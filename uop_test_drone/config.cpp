@@ -49,7 +49,9 @@ class uop_test_drone: vbs2_Helicopter
 		vehicleClass = uop_test_drone;		
 		side = SIDE_BLUFOR;		
 		crew = VBS2_skeleton_soldier_ak47;		
-		driverAction = "vbs2_AH1Z_Pilot";		
+		driverAction = "vbs2_AH1Z_Pilot";
+		forceHideDriver = 1;		
+		dustEffect = "vbs2_fx_HeliDustTiny";		
 		class Turrets
 		{
 
